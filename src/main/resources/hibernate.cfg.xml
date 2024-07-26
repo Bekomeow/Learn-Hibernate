@@ -9,6 +9,12 @@
     <property name="connection.username">beko</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+    <property name="show_sql">true</property>
+    <property name="format_sql">true</property>
+
+<!--    Добавляем сущность в SessionFactory,-->
+<!--    Можно также добавить с помощью java метода-->
+    <mapping class="com.beko.entity.User"/>
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
