@@ -1,0 +1,11 @@
+version: '3'
+services:
+  base-project-pg:
+    container_name: hibernate-starter-db
+    image: postgres:15
+    environment:
+      POSTGRES_USER: beko
+      POSTGRES_PASSWORD: beko
+      POSTGRES_DB: hibernate_starter_db
+    ports:
+      - '5433:5432'
