@@ -2,7 +2,9 @@ package com.beko;
 
 import com.beko.converter.BirthdayConvertor;
 import com.beko.entity.Birthday;
+import com.beko.entity.Role;
 import com.beko.entity.User;
+import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
 import org.hibernate.cfg.Configuration;
 
@@ -21,6 +23,8 @@ public class HibernateRunner {
 
         configuration.addAttributeConverter(BirthdayConvertor.class, true);
 
+        configuration.registerTypeOverride(new JsonBinaryType());
+
         // Загружаем настройки из файла hibernate.cfg.xml
         configuration.configure();
 
@@ -32,10 +36,17 @@ public class HibernateRunner {
             session.beginTransaction();
 
             User user = User.builder()
-                    .username("test@gmail.com")
+                    .username("test3@gmail.com")
                     .firstname("Beko")
                     .lastname("Toktamyssov")
+                    .info("""
+                            {
+                                "name": "Beko",
+                                "id": 220103114
+                            }
+                            """)
                     .birthDate(new Birthday(LocalDate.of(2005, 6, 14)))
+                    .role(Role.USER)
                     .build();
 
             session.save(user);
