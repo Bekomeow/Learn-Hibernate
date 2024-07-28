@@ -1,15 +1,12 @@
 package com.beko.entity;
 
+import com.beko.converter.BirthdayConvertor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import java.time.LocalDate;
+import javax.persistence.*;
 
 @Data
 @AllArgsConstructor
@@ -25,8 +22,10 @@ public class User {
 
     private String lastname;
 
+    @Convert(converter = BirthdayConvertor.class)
     @Column(name = "birth_date")
-    private LocalDate birthDate;
+    private Birthday birthDate;
 
-    private int age;
+    @Enumerated(value = EnumType.STRING)
+    private Role role;
 }

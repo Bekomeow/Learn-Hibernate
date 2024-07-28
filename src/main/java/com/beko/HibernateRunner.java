@@ -1,8 +1,8 @@
 package com.beko;
 
+import com.beko.converter.BirthdayConvertor;
+import com.beko.entity.Birthday;
 import com.beko.entity.User;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy;
 import org.hibernate.cfg.Configuration;
 
@@ -19,6 +19,8 @@ public class HibernateRunner {
 
         configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());
 
+        configuration.addAttributeConverter(BirthdayConvertor.class, true);
+
         // Загружаем настройки из файла hibernate.cfg.xml
         configuration.configure();
 
@@ -30,11 +32,10 @@ public class HibernateRunner {
             session.beginTransaction();
 
             User user = User.builder()
-                    .username("gabitcool31@gmail.com")
+                    .username("test@gmail.com")
                     .firstname("Beko")
                     .lastname("Toktamyssov")
-                    .birthDate(LocalDate.of(2005, 6, 14))
-                    .age(19)
+                    .birthDate(new Birthday(LocalDate.of(2005, 6, 14)))
                     .build();
 
             session.save(user);
