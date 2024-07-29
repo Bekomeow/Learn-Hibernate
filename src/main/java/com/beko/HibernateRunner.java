@@ -10,7 +10,7 @@ public class HibernateRunner {
 //    private static final Logger log = LoggerFactory.getLogger(HibernateRunner.class); -> @Slf4j
     public static void main(String[] args) {
         User user = User.builder()
-                .username("TestMail1@mail.ru")
+                .username("TestMail2mail.ru")
                 .personalInfo(PersonalInfo.builder()
                         .firstname("Beko")
                         .lastname("Toktamyssov")

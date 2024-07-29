@@ -19,7 +19,13 @@ import javax.persistence.*;
 @TypeDef(name = "Bekooo", typeClass = JsonBinaryType.class)
 @Table(name = "users", schema = "public")
 public class User {
+
     @Id
+    @GeneratedValue(generator = "user_gen", strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "user_gen", sequenceName = "user_id_seq", allocationSize = 1)
+    private Long id;
+
+    @Column(unique = true)
     private String username;
 
     @Embedded
