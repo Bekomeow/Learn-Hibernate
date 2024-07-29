@@ -1,0 +1,953 @@
+[2024-07-29 15:49:35,287] INFO [com.beko.HibernateRunner: 17] User entity is in transient state, object User(username=TestMail@mail.ru, firstname=Beko, lastname=Toktamyssov, birthDate=null, info=null, role=null)
+[2024-07-29 15:49:35,428] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 15:49:35,754] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 15:49:36,469] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 15:49:36,753] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 15:49:36,762] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 15:49:36,763] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 15:49:36,763] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 15:49:36,767] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 15:49:37,110] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 15:49:38,091] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 15:49:38,188] WARN [com.beko.HibernateRunner: 26] User is in detached state: user User(username=TestMail@mail.ru, firstname=Beko, lastname=Toktamyssov, birthDate=null, info=null, role=null), session is closed SessionImpl(1312690617<closed>)
+[2024-07-29 15:49:38,190] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:28:29,121] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:28:29,194] DEBUG [org.jboss.logging: 28] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2024-07-29 16:28:29,209] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2024-07-29 16:28:29,213] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2024-07-29 16:28:29,224] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2024-07-29 16:28:29,273] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:28:29,276] DEBUG [org.hibernate.cfg.Environment: 199] HHH000206: hibernate.properties not found
+[2024-07-29 16:28:29,629] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:28:29,894] DEBUG [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver: 63] Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2024-07-29 16:28:29,898] DEBUG [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver: 87] Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[2024-07-29 16:28:29,911] DEBUG [org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor: 117] cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[2024-07-29 16:28:30,316] DEBUG [org.hibernate.cfg.Configuration: 742] Building session factory using internal StandardServiceRegistryBuilder
+[2024-07-29 16:28:30,326] DEBUG [org.hibernate.service.spi.ServiceBinding: 68] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2024-07-29 16:28:30,326] DEBUG [org.hibernate.cfg.Configuration: 672] Building session factory using provided StandardServiceRegistry
+[2024-07-29 16:28:30,343] DEBUG [org.hibernate.cache.internal.RegionFactoryInitiator: 118] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2024-07-29 16:28:30,344] DEBUG [org.hibernate.cache.internal.RegionFactoryInitiator: 49] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2024-07-29 16:28:30,373] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:28:30,558] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:28:30,558] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:28:30,558] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:28:30,559] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@ea27e34
+[2024-07-29 16:28:30,561] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration true_false -> org.hibernate.type.TrueFalseType@1dfd5f51
+[2024-07-29 16:28:30,562] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration yes_no -> org.hibernate.type.YesNoType@4d4d8fcf
+[2024-07-29 16:28:30,564] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:28:30,564] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:28:30,565] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:28:30,566] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration character -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:28:30,567] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration char -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:28:30,568] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:28:30,570] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:28:30,570] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:28:30,571] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:28:30,572] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration integer -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:28:30,573] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration int -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:28:30,573] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:28:30,574] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:28:30,575] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:28:30,575] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:28:30,576] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:28:30,577] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:28:30,577] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:28:30,578] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:28:30,579] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:28:30,579] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:28:30,580] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@10ad20cb
+[2024-07-29 16:28:30,581] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@10ad20cb
+[2024-07-29 16:28:30,582] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@26f143ed
+[2024-07-29 16:28:30,582] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@26f143ed
+[2024-07-29 16:28:30,584] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration string -> org.hibernate.type.StringType@19868320
+[2024-07-29 16:28:30,584] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.String -> org.hibernate.type.StringType@19868320
+[2024-07-29 16:28:30,585] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3ef41c66
+[2024-07-29 16:28:30,586] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5f577419
+[2024-07-29 16:28:30,587] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration url -> org.hibernate.type.UrlType@11ee02f8
+[2024-07-29 16:28:30,587] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.net.URL -> org.hibernate.type.UrlType@11ee02f8
+[2024-07-29 16:28:30,589] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Duration -> org.hibernate.type.DurationType@77b325b3
+[2024-07-29 16:28:30,590] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@77b325b3
+[2024-07-29 16:28:30,606] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Instant -> org.hibernate.type.InstantType@117632cf
+[2024-07-29 16:28:30,606] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@117632cf
+[2024-07-29 16:28:30,609] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@57dc9128
+[2024-07-29 16:28:30,609] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@57dc9128
+[2024-07-29 16:28:30,611] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@704b2127
+[2024-07-29 16:28:30,612] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@704b2127
+[2024-07-29 16:28:30,615] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2bffa76d
+[2024-07-29 16:28:30,616] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2bffa76d
+[2024-07-29 16:28:30,619] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7668d560
+[2024-07-29 16:28:30,620] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7668d560
+[2024-07-29 16:28:30,623] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5215cd9a
+[2024-07-29 16:28:30,624] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5215cd9a
+[2024-07-29 16:28:30,628] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1ad777f
+[2024-07-29 16:28:30,629] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1ad777f
+[2024-07-29 16:28:30,631] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration date -> org.hibernate.type.DateType@5a6d5a8f
+[2024-07-29 16:28:30,631] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Date -> org.hibernate.type.DateType@5a6d5a8f
+[2024-07-29 16:28:30,633] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration time -> org.hibernate.type.TimeType@44ea608c
+[2024-07-29 16:28:30,633] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@44ea608c
+[2024-07-29 16:28:30,635] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration timestamp -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:28:30,636] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:28:30,636] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:28:30,640] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@76b0ae1b
+[2024-07-29 16:28:30,641] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:28:30,642] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:28:30,642] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:28:30,643] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5bf61e67
+[2024-07-29 16:28:30,644] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@51671b08
+[2024-07-29 16:28:30,646] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration locale -> org.hibernate.type.LocaleType@26f3d90c
+[2024-07-29 16:28:30,647] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@26f3d90c
+[2024-07-29 16:28:30,648] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration currency -> org.hibernate.type.CurrencyType@6c2d4cc6
+[2024-07-29 16:28:30,649] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6c2d4cc6
+[2024-07-29 16:28:30,651] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration timezone -> org.hibernate.type.TimeZoneType@2472c7d8
+[2024-07-29 16:28:30,651] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2472c7d8
+[2024-07-29 16:28:30,653] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration class -> org.hibernate.type.ClassType@5c84624f
+[2024-07-29 16:28:30,653] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5c84624f
+[2024-07-29 16:28:30,655] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:28:30,655] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:28:30,657] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2392212b
+[2024-07-29 16:28:30,658] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration binary -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:28:30,658] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte[] -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:28:30,659] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [B -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:28:30,660] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:28:30,660] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:28:30,661] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:28:30,663] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration row_version -> org.hibernate.type.RowVersionType@4e406694
+[2024-07-29 16:28:30,664] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration image -> org.hibernate.type.ImageType@2b50150
+[2024-07-29 16:28:30,666] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration characters -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:28:30,666] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration char[] -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:28:30,666] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [C -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:28:30,668] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:28:30,668] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:28:30,668] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:28:30,669] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration text -> org.hibernate.type.TextType@4163f1cd
+[2024-07-29 16:28:30,670] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ntext -> org.hibernate.type.NTextType@23aae55
+[2024-07-29 16:28:30,672] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration blob -> org.hibernate.type.BlobType@710b30ef
+[2024-07-29 16:28:30,673] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@710b30ef
+[2024-07-29 16:28:30,673] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2f6bbeb0
+[2024-07-29 16:28:30,676] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration clob -> org.hibernate.type.ClobType@df4b72
+[2024-07-29 16:28:30,676] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@df4b72
+[2024-07-29 16:28:30,678] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration nclob -> org.hibernate.type.NClobType@7ba63fe5
+[2024-07-29 16:28:30,679] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7ba63fe5
+[2024-07-29 16:28:30,680] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@584f5497
+[2024-07-29 16:28:30,681] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4fbb001b
+[2024-07-29 16:28:30,683] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration serializable -> org.hibernate.type.SerializableType@2f19f2aa
+[2024-07-29 16:28:30,689] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration object -> org.hibernate.type.ObjectType@867ba60
+[2024-07-29 16:28:30,690] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@867ba60
+[2024-07-29 16:28:30,691] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6034e75d
+[2024-07-29 16:28:30,691] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@15fc442
+[2024-07-29 16:28:30,691] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3f3c7bdb
+[2024-07-29 16:28:30,692] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@456abb66
+[2024-07-29 16:28:30,692] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2a3a299
+[2024-07-29 16:28:30,692] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7da10b5b
+[2024-07-29 16:28:30,694] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@219f4597
+[2024-07-29 16:28:30,695] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@31be6b49
+[2024-07-29 16:28:30,748] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2024-07-29 16:28:30,749] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2024-07-29 16:28:30,750] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2024-07-29 16:28:30,751] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2024-07-29 16:28:30,751] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2024-07-29 16:28:30,753] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2024-07-29 16:28:30,754] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2024-07-29 16:28:30,756] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2024-07-29 16:28:30,757] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2024-07-29 16:28:30,758] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2024-07-29 16:28:30,759] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2024-07-29 16:28:30,760] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2024-07-29 16:28:30,760] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2024-07-29 16:28:30,762] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2024-07-29 16:28:30,768] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:28:30,777] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:28:30,778] INFO [org.hibernate.orm.connections.pooling: 121] HHH10001001: Connection properties: {password=beko, user=beko}
+[2024-07-29 16:28:30,778] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:28:30,782] DEBUG [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 384] Initializing Connection pool with 1 Connections
+[2024-07-29 16:28:30,782] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:28:31,147] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 72] Database ->
+       name : PostgreSQL
+    version : 15.7 (Debian 15.7-1.pgdg120+1)
+      major : 15
+      minor : 7
+[2024-07-29 16:28:31,147] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 83] Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.23
+      major : 42
+      minor : 2
+[2024-07-29 16:28:31,148] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 389] JDBC version : 4.2
+[2024-07-29 16:28:31,167] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:28:31,189] DEBUG [org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder: 114] JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+[2024-07-29 16:28:31,245] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@42b21d99
+[2024-07-29 16:28:31,245] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@42b21d99
+[2024-07-29 16:28:31,245] DEBUG [org.hibernate.type.BasicTypeRegistry: 160] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:28:31,247] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration jsonb -> com.vladmihalcea.hibernate.type.json.JsonBinaryType@37b72ea
+[2024-07-29 16:28:31,256] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 149] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4f82663e] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@e04ccf8]
+[2024-07-29 16:28:31,314] DEBUG [org.hibernate.boot.model.relational.Namespace: 51] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2024-07-29 16:28:31,331] DEBUG [org.hibernate.cfg.AnnotationBinder: 547] Binding entity from annotated class: com.beko.entity.User
+[2024-07-29 16:28:31,352] DEBUG [org.hibernate.cfg.AnnotationBinder: 1385] Binding type definition: Bekooo
+[2024-07-29 16:28:31,361] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2024-07-29 16:28:31,369] DEBUG [org.hibernate.cfg.annotations.EntityBinder: 431] Import with entity name User
+[2024-07-29 16:28:31,371] DEBUG [org.hibernate.boot.model.relational.Namespace: 51] Created database namespace [logicalName=Name{catalog=null, schema=public}, physicalName=Name{catalog=null, schema=public}]
+[2024-07-29 16:28:31,373] DEBUG [org.hibernate.cfg.annotations.EntityBinder: 874] Bind entity com.beko.entity.User on table users
+[2024-07-29 16:28:31,404] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=username, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,408] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.beko.entity.User] is safe
+[2024-07-29 16:28:31,408] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.beko.entity.User
+[2024-07-29 16:28:31,409] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property username with lazy=false
+[2024-07-29 16:28:31,411] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:username]
+[2024-07-29 16:28:31,413] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.username (type=java.lang.String)
+[2024-07-29 16:28:31,421] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for username
+[2024-07-29 16:28:31,424] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property username
+[2024-07-29 16:28:31,430] DEBUG [org.hibernate.cfg.BinderHelper: 514] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(username)]), username, assigned, , ...)
+[2024-07-29 16:28:31,431] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=info, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,432] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property info with lazy=false
+[2024-07-29 16:28:31,432] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:info]
+[2024-07-29 16:28:31,432] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.info (type=java.lang.String)
+[2024-07-29 16:28:31,433] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for info
+[2024-07-29 16:28:31,433] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property info
+[2024-07-29 16:28:31,434] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=personal_info, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,443] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=birth_date, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,444] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property birthDate with lazy=false
+[2024-07-29 16:28:31,447] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 327] Starting applyAttributeConverter [com.beko.entity.PersonalInfo:birthDate]
+[2024-07-29 16:28:31,447] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for birthDate
+[2024-07-29 16:28:31,447] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property birthDate
+[2024-07-29 16:28:31,451] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,451] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property firstname with lazy=false
+[2024-07-29 16:28:31,452] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User.personalInfo:firstname]
+[2024-07-29 16:28:31,452] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.PersonalInfo.firstname (type=java.lang.String)
+[2024-07-29 16:28:31,453] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for firstname
+[2024-07-29 16:28:31,454] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property firstname
+[2024-07-29 16:28:31,455] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,456] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property lastname with lazy=false
+[2024-07-29 16:28:31,456] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User.personalInfo:lastname]
+[2024-07-29 16:28:31,457] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.PersonalInfo.lastname (type=java.lang.String)
+[2024-07-29 16:28:31,457] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for lastname
+[2024-07-29 16:28:31,457] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property lastname
+[2024-07-29 16:28:31,458] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property personalInfo
+[2024-07-29 16:28:31,458] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=role, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:28:31,459] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property role with lazy=false
+[2024-07-29 16:28:31,459] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:role]
+[2024-07-29 16:28:31,459] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.role (type=com.beko.entity.Role)
+[2024-07-29 16:28:31,461] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for role
+[2024-07-29 16:28:31,462] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property role
+[2024-07-29 16:28:31,475] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for username
+[2024-07-29 16:28:31,475] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for info
+[2024-07-29 16:28:31,476] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.vladmihalcea.hibernate.type.json.JsonBinaryType] is safe
+[2024-07-29 16:28:31,477] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.vladmihalcea.hibernate.type.json.JsonBinaryType
+[2024-07-29 16:28:31,478] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for birthDate
+[2024-07-29 16:28:31,478] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 468] Applying JPA AttributeConverter [org.hibernate.boot.model.convert.internal.ClassBasedConverterDescriptor@1e141e42] to [com.beko.entity.PersonalInfo:birthDate]
+[2024-07-29 16:28:31,483] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [com.beko.converter.BirthdayConvertor]; falling back to static registry
+[2024-07-29 16:28:31,490] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [com.beko.entity.Birthday]; falling back to static registry
+[2024-07-29 16:28:31,490] DEBUG [org.hibernate.type.descriptor.java.JavaTypeDescriptorRegistry: 127] Could not find matching JavaTypeDescriptor for requested Java class [com.beko.entity.Birthday]; using fallback.  This means Hibernate does not know how to perform certain basic operations in relation to this Java type.
+[2024-07-29 16:28:31,494] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [java.sql.Date]; falling back to static registry
+[2024-07-29 16:28:31,499] DEBUG [org.hibernate.type.descriptor.converter.AttributeConverterTypeAdapter: 57] Created AttributeConverterTypeAdapter -> converted::com.beko.converter.BirthdayConvertor
+[2024-07-29 16:28:31,499] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for firstname
+[2024-07-29 16:28:31,499] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for lastname
+[2024-07-29 16:28:31,499] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for role
+[2024-07-29 16:28:31,502] DEBUG [org.hibernate.mapping.PrimaryKey: 36] Forcing column [username] to be non-null as it is part of the primary key for table [users]
+[2024-07-29 16:28:31,576] DEBUG [org.hibernate.internal.SessionFactoryImpl: 208] Building session factory
+[2024-07-29 16:28:31,578] DEBUG [org.hibernate.cfg.Settings: 68] SessionFactory name : null
+[2024-07-29 16:28:31,578] DEBUG [org.hibernate.cfg.Settings: 69] Automatic flush during beforeCompletion(): enabled
+[2024-07-29 16:28:31,578] DEBUG [org.hibernate.cfg.Settings: 70] Automatic session close at end of transaction: disabled
+[2024-07-29 16:28:31,578] DEBUG [org.hibernate.cfg.Settings: 72] Statistics: disabled
+[2024-07-29 16:28:31,578] DEBUG [org.hibernate.cfg.Settings: 74] Deleted entity synthetic identifier rollback: disabled
+[2024-07-29 16:28:31,579] DEBUG [org.hibernate.cfg.Settings: 75] Default entity-mode: pojo
+[2024-07-29 16:28:31,579] DEBUG [org.hibernate.cfg.Settings: 76] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2024-07-29 16:28:31,579] DEBUG [org.hibernate.cfg.Settings: 77] Allow initialization of lazy state outside session : disabled
+[2024-07-29 16:28:31,579] DEBUG [org.hibernate.cfg.Settings: 79] Using BatchFetchStyle : LEGACY
+[2024-07-29 16:28:31,580] DEBUG [org.hibernate.cfg.Settings: 80] Default batch fetch size: -1
+[2024-07-29 16:28:31,580] DEBUG [org.hibernate.cfg.Settings: 81] Maximum outer join fetch depth: null
+[2024-07-29 16:28:31,581] DEBUG [org.hibernate.cfg.Settings: 82] Default null ordering: NONE
+[2024-07-29 16:28:31,581] DEBUG [org.hibernate.cfg.Settings: 83] Order SQL updates by primary key: disabled
+[2024-07-29 16:28:31,581] DEBUG [org.hibernate.cfg.Settings: 84] Order SQL inserts for batching: disabled
+[2024-07-29 16:28:31,581] DEBUG [org.hibernate.cfg.Settings: 86] multi-tenancy strategy : NONE
+[2024-07-29 16:28:31,582] DEBUG [org.hibernate.cfg.Settings: 88] JTA Track by Thread: enabled
+[2024-07-29 16:28:31,582] DEBUG [org.hibernate.cfg.Settings: 90] Query language substitutions: {}
+[2024-07-29 16:28:31,582] DEBUG [org.hibernate.cfg.Settings: 91] Named query checking : enabled
+[2024-07-29 16:28:31,582] DEBUG [org.hibernate.cfg.Settings: 93] Second-level cache: disabled
+[2024-07-29 16:28:31,582] DEBUG [org.hibernate.cfg.Settings: 94] Second-level query cache: disabled
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 95] Second-level query cache factory: null
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 96] Second-level cache region prefix: null
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 97] Optimize second-level cache for minimal puts: disabled
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 98] Structured second-level cache entries: disabled
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 99] Second-level cache direct-reference entries: disabled
+[2024-07-29 16:28:31,583] DEBUG [org.hibernate.cfg.Settings: 100] Automatic eviction of collection cache: disabled
+[2024-07-29 16:28:31,584] DEBUG [org.hibernate.cfg.Settings: 102] JDBC batch size: 15
+[2024-07-29 16:28:31,584] DEBUG [org.hibernate.cfg.Settings: 103] JDBC batch updates for versioned data: enabled
+[2024-07-29 16:28:31,584] DEBUG [org.hibernate.cfg.Settings: 104] Scrollable result sets: enabled
+[2024-07-29 16:28:31,585] DEBUG [org.hibernate.cfg.Settings: 105] Wrap result sets: disabled
+[2024-07-29 16:28:31,585] DEBUG [org.hibernate.cfg.Settings: 106] JDBC3 getGeneratedKeys(): enabled
+[2024-07-29 16:28:31,586] DEBUG [org.hibernate.cfg.Settings: 107] JDBC result set fetch size: null
+[2024-07-29 16:28:31,588] DEBUG [org.hibernate.cfg.Settings: 108] Connection release mode: AFTER_TRANSACTION
+[2024-07-29 16:28:31,589] DEBUG [org.hibernate.cfg.Settings: 109] Generate SQL with comments: disabled
+[2024-07-29 16:28:31,589] DEBUG [org.hibernate.cfg.Settings: 111] JPA compliance - query : disabled
+[2024-07-29 16:28:31,590] DEBUG [org.hibernate.cfg.Settings: 112] JPA compliance - closed-handling : disabled
+[2024-07-29 16:28:31,591] DEBUG [org.hibernate.cfg.Settings: 113] JPA compliance - lists : disabled
+[2024-07-29 16:28:31,591] DEBUG [org.hibernate.cfg.Settings: 114] JPA compliance - transactions : disabled
+[2024-07-29 16:28:31,667] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:28:31,671] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:28:31,694] DEBUG [org.hibernate.internal.SessionFactoryImpl: 276] Session factory constructed with filter configurations : {}
+[2024-07-29 16:28:31,694] DEBUG [org.hibernate.internal.SessionFactoryImpl: 277] Instantiating session factory with properties: {hibernate.format_sql=true, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialect, java.class.path=C:\Users\BEKZHAN\IdeaProjects\hibernate-starter\build\classes\java\main;C:\Users\BEKZHAN\IdeaProjects\hibernate-starter\build\resources\main;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.6.8.Final\bb775500aff700151b9daa3b4d9de781245d39e6\hibernate-core-5.6.8.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.vladmihalcea\hibernate-types-52\2.12.1\259a605962e65f8683aa34d2df2efd0c08b5a5cb\hibernate-types-52-2.12.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.32\1e225e45fd0c339284c7dcd87cc7a92665d6d559\slf4j-log4j12-1.7.32.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.postgresql\postgresql\42.2.23\9cb217a3d5b640567ed7c6e8c11f389613c81c4d\postgresql-42.2.23.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.2.Final\e59ffdbc6ad09eeb33507b39ffcf287679a498c8\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.4.3.Final\c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea\jboss-logging-3.4.3.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.12.9\424ded9ef3496b0d997ce066f2166a4f7ec7b07a\byte-buddy-1.12.9.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.4.2.Final\1e1c385990b258ff1a24c801e84aebbacf70eb39\jandex-2.4.2.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-jaxb-annotations\2.11.0\259bdeb30c9ec336897ca694346486283241214f\jackson-module-jaxb-annotations-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.32\cdcff33940d9f2de763bc41ea05a0be5941176c3\slf4j-api-1.7.32.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.5.0\2f50520c8abea66fbd8d26e481d3aef5c673b510\checker-qual-3.5.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.11.0\8f5aaf3878b0647ff3a16610af53b1a5c05d9f15\jackson-databind-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.11.0\c626020ae55d19c690d25cb51c1532ba76e5890f\jackson-annotations-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.11.0\f84302e14648f9f63c0c73951054aeb2ff0b810a\jackson-core-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\2.3.2\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\jakarta.xml.bind-api-2.3.2.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\1.2.1\562a587face36ec7eff2db7f2fc95425c6602bc1\jakarta.activation-api-1.2.1.jar, java.vm.vendor=JetBrains s.r.o., sun.arch.data.model=64, user.variant=, java.vendor.url=https://openjdk.java.net/, user.timezone=Asia/Almaty, java.vm.specification.version=17, os.name=Windows 10, user.country=RU, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr\bin, sun.java.command=com.beko.HibernateRunner, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\BEKZHAN, user.language=ru, java.specification.vendor=Oracle Corporation, java.version.date=2023-01-17, java.home=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, jbr.virtualization.information=Hyper-V role, user.script=, connection.password=beko, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.6+7-b469.82, user.name=BEKZHAN, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5433/hibernate_starter_db, file.encoding=windows-1251, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=JBR-17.0.6+7-469.82-jcef, show_sql=true, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\BEKZHAN\AppData\Local\Temp\, java.version=17.0.6, user.dir=C:\Users\BEKZHAN\IdeaProjects\hibernate-starter, os.arch=amd64, connection.username=beko, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=org.postgresql.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@2643d762, native.encoding=Cp1251, java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\plugins\maven\lib\maven3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\BEKZHAN\AppData\Local\Microsoft\WindowsApps;;., java.vendor=JetBrains s.r.o., java.vm.info=mixed mode, java.vm.version=17.0.6+7-b469.82, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:postgresql://localhost:5433/hibernate_starter_db, java.class.version=61.0}
+[2024-07-29 16:28:31,711] DEBUG [org.hibernate.secure.spi.JaccIntegrator: 84] Skipping JACC integration as it was not enabled
+[2024-07-29 16:28:31,722] DEBUG [org.hibernate.type.EnumType: 126] Using NAMED-based conversion for Enum com.beko.entity.Role
+[2024-07-29 16:28:31,724] DEBUG [org.hibernate.internal.SessionFactoryImpl: 316] Instantiated session factory
+[2024-07-29 16:28:31,725] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 154] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4f82663e] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7cbeac65]
+[2024-07-29 16:28:31,808] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.beko.entity.User] is safe
+[2024-07-29 16:28:31,808] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.beko.entity.User
+[2024-07-29 16:28:32,120] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4002] Static SQL for entity: com.beko.entity.User
+[2024-07-29 16:28:32,121] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4007]  Version select: select username from public.users where username =?
+[2024-07-29 16:28:32,121] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4010]  Snapshot select: select user_.username, user_.info as info2_0_, user_.birth_date as birth_da3_0_, user_.firstname as firstnam4_0_, user_.lastname as lastname5_0_, user_.role as role6_0_ from public.users user_ where user_.username=?
+[2024-07-29 16:28:32,121] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Insert 0: insert into public.users (info, birth_date, firstname, lastname, role, username) values (?, ?, ?, ?, ?, ?)
+[2024-07-29 16:28:32,121] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Update 0: update public.users set info=?, birth_date=?, firstname=?, lastname=?, role=? where username=?
+[2024-07-29 16:28:32,122] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Delete 0: delete from public.users where username=?
+[2024-07-29 16:28:32,153] DEBUG [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl: 174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b95a6db]
+[2024-07-29 16:28:32,154] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : info
+[2024-07-29 16:28:32,155] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo
+[2024-07-29 16:28:32,157] DEBUG [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl: 174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@6ef60295]
+[2024-07-29 16:28:32,199] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.birthDate
+[2024-07-29 16:28:32,199] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.firstname
+[2024-07-29 16:28:32,199] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.lastname
+[2024-07-29 16:28:32,199] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : role
+[2024-07-29 16:28:32,200] DEBUG [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy: 160] Building LoadPlan...
+[2024-07-29 16:28:32,213] DEBUG [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor: 102] processing queryspace <gen:0>
+[2024-07-29 16:28:32,219] DEBUG [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter: 55] LoadPlan(entity=com.beko.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.beko.entity.User, querySpaceUid=<gen:0>, path=com.beko.entity.User)
+          - CompositeAttributeFetchImpl(composite=com.beko.entity.PersonalInfo, querySpaceUid=<gen:1>, path=com.beko.entity.User.personalInfo)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.beko.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+          - JOIN (JoinDefinedByMetadata(personalInfo)) : <gen:0> -> <gen:1>
+             - CompositeQuerySpaceImpl(uid=<gen:1>)
+                - SQL table alias mapping - user0_
+
+[2024-07-29 16:28:32,221] DEBUG [org.hibernate.loader.entity.plan.EntityLoader: 129] Static select for entity com.beko.entity.User [NONE]: select user0_.username as username1_0_0_, user0_.info as info2_0_0_, user0_.birth_date as birth_da3_0_0_, user0_.firstname as firstnam4_0_0_, user0_.lastname as lastname5_0_0_, user0_.role as role6_0_0_ from public.users user0_ where user0_.username=?
+[2024-07-29 16:28:32,262] DEBUG [org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator: 556] No schema actions specified
+[2024-07-29 16:28:32,262] DEBUG [org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator: 69] No actions specified; doing nothing
+[2024-07-29 16:28:32,262] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 43] No JtaPlatform was specified, checking resolver
+[2024-07-29 16:28:32,264] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator: 33] No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[2024-07-29 16:28:32,272] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver: 137] Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:28:32,272] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:28:32,274] DEBUG [org.hibernate.query.spi.NamedQueryRepository: 171] Checking 0 named HQL queries
+[2024-07-29 16:28:32,274] DEBUG [org.hibernate.query.spi.NamedQueryRepository: 185] Checking 0 named SQL queries
+[2024-07-29 16:28:32,281] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:28:32,291] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 51] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@62f11ebb
+[2024-07-29 16:28:32,293] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 73] Registering SessionFactory: 364541f7-f246-47b4-9aa3-0cd8d740f5f9 (<unnamed>)
+[2024-07-29 16:28:32,293] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 80] Not binding SessionFactory to JNDI, no JNDI name configured
+[2024-07-29 16:28:32,368] DEBUG [org.hibernate.stat.internal.StatisticsInitiator: 101] Statistics initialized [enabled=false]
+[2024-07-29 16:28:32,377] DEBUG [org.hibernate.engine.transaction.internal.TransactionImpl: 53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2024-07-29 16:28:32,378] WARN [com.beko.HibernateRunner: 31] User is in detached state: user User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null), session is closed SessionImpl(226213650<closed>)
+[2024-07-29 16:28:32,378] DEBUG [org.hibernate.internal.SessionFactoryImpl: 821] HHH000031: Closing
+[2024-07-29 16:28:32,378] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 345] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1450131a] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@7cbeac65]
+[2024-07-29 16:28:32,379] DEBUG [org.hibernate.service.internal.AbstractServiceRegistryImpl: 419] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2024-07-29 16:28:32,380] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:28:32,382] DEBUG [org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl: 295] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2024-07-29 16:29:29,461] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:29:29,530] DEBUG [org.jboss.logging: 28] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2024-07-29 16:29:29,544] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2024-07-29 16:29:29,547] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2024-07-29 16:29:29,557] DEBUG [org.hibernate.integrator.internal.IntegratorServiceImpl: 46] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2024-07-29 16:29:29,599] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:29:29,601] DEBUG [org.hibernate.cfg.Environment: 199] HHH000206: hibernate.properties not found
+[2024-07-29 16:29:29,917] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:29:30,179] DEBUG [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver: 63] Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2024-07-29 16:29:30,181] DEBUG [org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver: 87] Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[2024-07-29 16:29:30,197] DEBUG [org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor: 117] cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[2024-07-29 16:29:30,576] DEBUG [org.hibernate.cfg.Configuration: 742] Building session factory using internal StandardServiceRegistryBuilder
+[2024-07-29 16:29:30,585] DEBUG [org.hibernate.service.spi.ServiceBinding: 68] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2024-07-29 16:29:30,585] DEBUG [org.hibernate.cfg.Configuration: 672] Building session factory using provided StandardServiceRegistry
+[2024-07-29 16:29:30,600] DEBUG [org.hibernate.cache.internal.RegionFactoryInitiator: 118] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2024-07-29 16:29:30,602] DEBUG [org.hibernate.cache.internal.RegionFactoryInitiator: 49] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2024-07-29 16:29:30,632] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:29:30,776] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:29:30,776] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:29:30,777] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@60afd40d
+[2024-07-29 16:29:30,777] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@ea27e34
+[2024-07-29 16:29:30,779] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration true_false -> org.hibernate.type.TrueFalseType@1dfd5f51
+[2024-07-29 16:29:30,780] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration yes_no -> org.hibernate.type.YesNoType@4d4d8fcf
+[2024-07-29 16:29:30,781] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:29:30,782] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:29:30,782] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7bd69e82
+[2024-07-29 16:29:30,784] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration character -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:29:30,784] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration char -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:29:30,785] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@5cbf9e9f
+[2024-07-29 16:29:30,786] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:29:30,786] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:29:30,787] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1deb2c43
+[2024-07-29 16:29:30,788] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration integer -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:29:30,789] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration int -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:29:30,789] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6ca320ab
+[2024-07-29 16:29:30,790] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:29:30,790] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:29:30,791] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Long -> org.hibernate.type.LongType@323e8306
+[2024-07-29 16:29:30,792] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:29:30,793] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:29:30,793] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6e9c413e
+[2024-07-29 16:29:30,795] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:29:30,796] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:29:30,796] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@27a0a5a2
+[2024-07-29 16:29:30,797] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@10ad20cb
+[2024-07-29 16:29:30,798] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@10ad20cb
+[2024-07-29 16:29:30,799] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@26f143ed
+[2024-07-29 16:29:30,799] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@26f143ed
+[2024-07-29 16:29:30,801] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration string -> org.hibernate.type.StringType@19868320
+[2024-07-29 16:29:30,801] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.String -> org.hibernate.type.StringType@19868320
+[2024-07-29 16:29:30,802] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3ef41c66
+[2024-07-29 16:29:30,803] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5f577419
+[2024-07-29 16:29:30,805] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration url -> org.hibernate.type.UrlType@11ee02f8
+[2024-07-29 16:29:30,805] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.net.URL -> org.hibernate.type.UrlType@11ee02f8
+[2024-07-29 16:29:30,807] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Duration -> org.hibernate.type.DurationType@77b325b3
+[2024-07-29 16:29:30,807] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@77b325b3
+[2024-07-29 16:29:30,824] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Instant -> org.hibernate.type.InstantType@117632cf
+[2024-07-29 16:29:30,824] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@117632cf
+[2024-07-29 16:29:30,827] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@57dc9128
+[2024-07-29 16:29:30,827] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@57dc9128
+[2024-07-29 16:29:30,830] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@704b2127
+[2024-07-29 16:29:30,831] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@704b2127
+[2024-07-29 16:29:30,833] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2bffa76d
+[2024-07-29 16:29:30,834] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2bffa76d
+[2024-07-29 16:29:30,836] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7668d560
+[2024-07-29 16:29:30,837] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7668d560
+[2024-07-29 16:29:30,839] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5215cd9a
+[2024-07-29 16:29:30,839] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5215cd9a
+[2024-07-29 16:29:30,842] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1ad777f
+[2024-07-29 16:29:30,842] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1ad777f
+[2024-07-29 16:29:30,844] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration date -> org.hibernate.type.DateType@5a6d5a8f
+[2024-07-29 16:29:30,844] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Date -> org.hibernate.type.DateType@5a6d5a8f
+[2024-07-29 16:29:30,846] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration time -> org.hibernate.type.TimeType@44ea608c
+[2024-07-29 16:29:30,846] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@44ea608c
+[2024-07-29 16:29:30,848] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration timestamp -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:29:30,849] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:29:30,849] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3b582111
+[2024-07-29 16:29:30,852] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@76b0ae1b
+[2024-07-29 16:29:30,854] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:29:30,854] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:29:30,855] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@199e4c2b
+[2024-07-29 16:29:30,856] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5bf61e67
+[2024-07-29 16:29:30,857] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@51671b08
+[2024-07-29 16:29:30,858] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration locale -> org.hibernate.type.LocaleType@26f3d90c
+[2024-07-29 16:29:30,859] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@26f3d90c
+[2024-07-29 16:29:30,860] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration currency -> org.hibernate.type.CurrencyType@6c2d4cc6
+[2024-07-29 16:29:30,861] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@6c2d4cc6
+[2024-07-29 16:29:30,862] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration timezone -> org.hibernate.type.TimeZoneType@2472c7d8
+[2024-07-29 16:29:30,862] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2472c7d8
+[2024-07-29 16:29:30,863] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration class -> org.hibernate.type.ClassType@5c84624f
+[2024-07-29 16:29:30,864] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5c84624f
+[2024-07-29 16:29:30,865] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:29:30,865] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:29:30,866] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2392212b
+[2024-07-29 16:29:30,868] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration binary -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:29:30,868] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration byte[] -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:29:30,869] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [B -> org.hibernate.type.BinaryType@30f4b1a6
+[2024-07-29 16:29:30,870] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:29:30,870] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:29:30,871] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@669d2b1b
+[2024-07-29 16:29:30,872] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration row_version -> org.hibernate.type.RowVersionType@4e406694
+[2024-07-29 16:29:30,873] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration image -> org.hibernate.type.ImageType@2b50150
+[2024-07-29 16:29:30,874] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration characters -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:29:30,874] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration char[] -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:29:30,875] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [C -> org.hibernate.type.CharArrayType@17f460bb
+[2024-07-29 16:29:30,876] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:29:30,876] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:29:30,876] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@23c650a3
+[2024-07-29 16:29:30,877] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration text -> org.hibernate.type.TextType@4163f1cd
+[2024-07-29 16:29:30,878] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration ntext -> org.hibernate.type.NTextType@23aae55
+[2024-07-29 16:29:30,880] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration blob -> org.hibernate.type.BlobType@710b30ef
+[2024-07-29 16:29:30,880] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@710b30ef
+[2024-07-29 16:29:30,881] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2f6bbeb0
+[2024-07-29 16:29:30,883] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration clob -> org.hibernate.type.ClobType@df4b72
+[2024-07-29 16:29:30,883] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@df4b72
+[2024-07-29 16:29:30,885] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration nclob -> org.hibernate.type.NClobType@7ba63fe5
+[2024-07-29 16:29:30,885] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7ba63fe5
+[2024-07-29 16:29:30,886] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@584f5497
+[2024-07-29 16:29:30,887] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4fbb001b
+[2024-07-29 16:29:30,889] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration serializable -> org.hibernate.type.SerializableType@2f19f2aa
+[2024-07-29 16:29:30,893] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration object -> org.hibernate.type.ObjectType@867ba60
+[2024-07-29 16:29:30,894] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@867ba60
+[2024-07-29 16:29:30,895] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6034e75d
+[2024-07-29 16:29:30,895] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@15fc442
+[2024-07-29 16:29:30,896] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3f3c7bdb
+[2024-07-29 16:29:30,896] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@456abb66
+[2024-07-29 16:29:30,896] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2a3a299
+[2024-07-29 16:29:30,897] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7da10b5b
+[2024-07-29 16:29:30,897] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@219f4597
+[2024-07-29 16:29:30,898] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@31be6b49
+[2024-07-29 16:29:30,939] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2024-07-29 16:29:30,940] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2024-07-29 16:29:30,941] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2024-07-29 16:29:30,941] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2024-07-29 16:29:30,942] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2024-07-29 16:29:30,943] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2024-07-29 16:29:30,944] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2024-07-29 16:29:30,946] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2024-07-29 16:29:30,947] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2024-07-29 16:29:30,949] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2024-07-29 16:29:30,951] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2024-07-29 16:29:30,952] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2024-07-29 16:29:30,953] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2024-07-29 16:29:30,954] DEBUG [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory: 98] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2024-07-29 16:29:30,960] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:29:30,969] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:29:30,970] INFO [org.hibernate.orm.connections.pooling: 121] HHH10001001: Connection properties: {password=beko, user=beko}
+[2024-07-29 16:29:30,970] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:29:30,975] DEBUG [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 384] Initializing Connection pool with 1 Connections
+[2024-07-29 16:29:30,975] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:29:31,319] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 72] Database ->
+       name : PostgreSQL
+    version : 15.7 (Debian 15.7-1.pgdg120+1)
+      major : 15
+      minor : 7
+[2024-07-29 16:29:31,320] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 83] Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.23
+      major : 42
+      minor : 2
+[2024-07-29 16:29:31,321] DEBUG [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 389] JDBC version : 4.2
+[2024-07-29 16:29:31,344] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:29:31,367] DEBUG [org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder: 114] JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+[2024-07-29 16:29:31,425] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6a0659ac
+[2024-07-29 16:29:31,426] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@6a0659ac
+[2024-07-29 16:29:31,426] DEBUG [org.hibernate.type.BasicTypeRegistry: 160] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@62b3df3a
+[2024-07-29 16:29:31,428] DEBUG [org.hibernate.type.BasicTypeRegistry: 157] Adding type registration jsonb -> com.vladmihalcea.hibernate.type.json.JsonBinaryType@2f61f937
+[2024-07-29 16:29:31,438] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 149] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@77cb9cd1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@971e903]
+[2024-07-29 16:29:31,493] DEBUG [org.hibernate.boot.model.relational.Namespace: 51] Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2024-07-29 16:29:31,513] DEBUG [org.hibernate.cfg.AnnotationBinder: 547] Binding entity from annotated class: com.beko.entity.User
+[2024-07-29 16:29:31,534] DEBUG [org.hibernate.cfg.AnnotationBinder: 1385] Binding type definition: Bekooo
+[2024-07-29 16:29:31,545] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2024-07-29 16:29:31,555] DEBUG [org.hibernate.cfg.annotations.EntityBinder: 431] Import with entity name User
+[2024-07-29 16:29:31,557] DEBUG [org.hibernate.boot.model.relational.Namespace: 51] Created database namespace [logicalName=Name{catalog=null, schema=public}, physicalName=Name{catalog=null, schema=public}]
+[2024-07-29 16:29:31,561] DEBUG [org.hibernate.cfg.annotations.EntityBinder: 874] Bind entity com.beko.entity.User on table users
+[2024-07-29 16:29:31,595] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=username, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,598] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.beko.entity.User] is safe
+[2024-07-29 16:29:31,599] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.beko.entity.User
+[2024-07-29 16:29:31,599] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property username with lazy=false
+[2024-07-29 16:29:31,602] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:username]
+[2024-07-29 16:29:31,603] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.username (type=java.lang.String)
+[2024-07-29 16:29:31,611] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for username
+[2024-07-29 16:29:31,615] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property username
+[2024-07-29 16:29:31,623] DEBUG [org.hibernate.cfg.BinderHelper: 514] #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(username)]), username, assigned, , ...)
+[2024-07-29 16:29:31,624] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=info, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,625] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property info with lazy=false
+[2024-07-29 16:29:31,625] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:info]
+[2024-07-29 16:29:31,626] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.info (type=java.lang.String)
+[2024-07-29 16:29:31,626] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for info
+[2024-07-29 16:29:31,627] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property info
+[2024-07-29 16:29:31,628] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=personal_info, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,638] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=birth_date, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,639] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property birthDate with lazy=false
+[2024-07-29 16:29:31,643] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 327] Starting applyAttributeConverter [com.beko.entity.PersonalInfo:birthDate]
+[2024-07-29 16:29:31,643] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for birthDate
+[2024-07-29 16:29:31,643] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property birthDate
+[2024-07-29 16:29:31,648] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=firstname, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,648] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property firstname with lazy=false
+[2024-07-29 16:29:31,649] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User.personalInfo:firstname]
+[2024-07-29 16:29:31,649] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.PersonalInfo.firstname (type=java.lang.String)
+[2024-07-29 16:29:31,650] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for firstname
+[2024-07-29 16:29:31,650] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property firstname
+[2024-07-29 16:29:31,651] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=lastname, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,652] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property lastname with lazy=false
+[2024-07-29 16:29:31,652] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User.personalInfo:lastname]
+[2024-07-29 16:29:31,652] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.PersonalInfo.lastname (type=java.lang.String)
+[2024-07-29 16:29:31,653] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for lastname
+[2024-07-29 16:29:31,654] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property lastname
+[2024-07-29 16:29:31,654] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property personalInfo
+[2024-07-29 16:29:31,655] DEBUG [org.hibernate.cfg.Ejb3Column: 227] Binding column: Ejb3Column{table=org.hibernate.mapping.Table(public.users), mappingColumn=role, insertable=true, updatable=true, unique=false}
+[2024-07-29 16:29:31,655] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 175] MetadataSourceProcessor property role with lazy=false
+[2024-07-29 16:29:31,656] DEBUG [org.hibernate.cfg.AbstractPropertyHolder: 94] Attempting to locate auto-apply AttributeConverter for property [com.beko.entity.User:role]
+[2024-07-29 16:29:31,656] DEBUG [org.hibernate.boot.model.convert.internal.AttributeConverterManager: 99] Checking auto-apply AttributeConverter [com.beko.converter.BirthdayConvertor] (domain-type=Lcom/beko/entity/Birthday;) for match against basic attribute : com.beko.entity.User.role (type=com.beko.entity.Role)
+[2024-07-29 16:29:31,658] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 410] building SimpleValue for role
+[2024-07-29 16:29:31,659] DEBUG [org.hibernate.cfg.annotations.PropertyBinder: 266] Building property role
+[2024-07-29 16:29:31,670] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for username
+[2024-07-29 16:29:31,670] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for info
+[2024-07-29 16:29:31,671] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.vladmihalcea.hibernate.type.json.JsonBinaryType] is safe
+[2024-07-29 16:29:31,671] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.vladmihalcea.hibernate.type.json.JsonBinaryType
+[2024-07-29 16:29:31,671] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for birthDate
+[2024-07-29 16:29:31,672] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 468] Applying JPA AttributeConverter [org.hibernate.boot.model.convert.internal.ClassBasedConverterDescriptor@3681037] to [com.beko.entity.PersonalInfo:birthDate]
+[2024-07-29 16:29:31,676] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [com.beko.converter.BirthdayConvertor]; falling back to static registry
+[2024-07-29 16:29:31,682] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [com.beko.entity.Birthday]; falling back to static registry
+[2024-07-29 16:29:31,682] DEBUG [org.hibernate.type.descriptor.java.JavaTypeDescriptorRegistry: 127] Could not find matching JavaTypeDescriptor for requested Java class [com.beko.entity.Birthday]; using fallback.  This means Hibernate does not know how to perform certain basic operations in relation to this Java type.
+[2024-07-29 16:29:31,685] DEBUG [org.hibernate.type.descriptor.java.spi.JavaTypeDescriptorRegistry: 40] Could not find matching scoped JavaTypeDescriptor for requested Java class [java.sql.Date]; falling back to static registry
+[2024-07-29 16:29:31,689] DEBUG [org.hibernate.type.descriptor.converter.AttributeConverterTypeAdapter: 57] Created AttributeConverterTypeAdapter -> converted::com.beko.converter.BirthdayConvertor
+[2024-07-29 16:29:31,690] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for firstname
+[2024-07-29 16:29:31,690] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for lastname
+[2024-07-29 16:29:31,690] DEBUG [org.hibernate.cfg.annotations.SimpleValueBinder: 455] Starting fillSimpleValue for role
+[2024-07-29 16:29:31,693] DEBUG [org.hibernate.mapping.PrimaryKey: 36] Forcing column [username] to be non-null as it is part of the primary key for table [users]
+[2024-07-29 16:29:31,765] DEBUG [org.hibernate.internal.SessionFactoryImpl: 208] Building session factory
+[2024-07-29 16:29:31,766] DEBUG [org.hibernate.cfg.Settings: 68] SessionFactory name : null
+[2024-07-29 16:29:31,766] DEBUG [org.hibernate.cfg.Settings: 69] Automatic flush during beforeCompletion(): enabled
+[2024-07-29 16:29:31,766] DEBUG [org.hibernate.cfg.Settings: 70] Automatic session close at end of transaction: disabled
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 72] Statistics: disabled
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 74] Deleted entity synthetic identifier rollback: disabled
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 75] Default entity-mode: pojo
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 76] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 77] Allow initialization of lazy state outside session : disabled
+[2024-07-29 16:29:31,767] DEBUG [org.hibernate.cfg.Settings: 79] Using BatchFetchStyle : LEGACY
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 80] Default batch fetch size: -1
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 81] Maximum outer join fetch depth: null
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 82] Default null ordering: NONE
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 83] Order SQL updates by primary key: disabled
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 84] Order SQL inserts for batching: disabled
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 86] multi-tenancy strategy : NONE
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 88] JTA Track by Thread: enabled
+[2024-07-29 16:29:31,768] DEBUG [org.hibernate.cfg.Settings: 90] Query language substitutions: {}
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 91] Named query checking : enabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 93] Second-level cache: disabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 94] Second-level query cache: disabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 95] Second-level query cache factory: null
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 96] Second-level cache region prefix: null
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 97] Optimize second-level cache for minimal puts: disabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 98] Structured second-level cache entries: disabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 99] Second-level cache direct-reference entries: disabled
+[2024-07-29 16:29:31,769] DEBUG [org.hibernate.cfg.Settings: 100] Automatic eviction of collection cache: disabled
+[2024-07-29 16:29:31,770] DEBUG [org.hibernate.cfg.Settings: 102] JDBC batch size: 15
+[2024-07-29 16:29:31,770] DEBUG [org.hibernate.cfg.Settings: 103] JDBC batch updates for versioned data: enabled
+[2024-07-29 16:29:31,770] DEBUG [org.hibernate.cfg.Settings: 104] Scrollable result sets: enabled
+[2024-07-29 16:29:31,771] DEBUG [org.hibernate.cfg.Settings: 105] Wrap result sets: disabled
+[2024-07-29 16:29:31,771] DEBUG [org.hibernate.cfg.Settings: 106] JDBC3 getGeneratedKeys(): enabled
+[2024-07-29 16:29:31,772] DEBUG [org.hibernate.cfg.Settings: 107] JDBC result set fetch size: null
+[2024-07-29 16:29:31,773] DEBUG [org.hibernate.cfg.Settings: 108] Connection release mode: AFTER_TRANSACTION
+[2024-07-29 16:29:31,774] DEBUG [org.hibernate.cfg.Settings: 109] Generate SQL with comments: disabled
+[2024-07-29 16:29:31,774] DEBUG [org.hibernate.cfg.Settings: 111] JPA compliance - query : disabled
+[2024-07-29 16:29:31,775] DEBUG [org.hibernate.cfg.Settings: 112] JPA compliance - closed-handling : disabled
+[2024-07-29 16:29:31,775] DEBUG [org.hibernate.cfg.Settings: 113] JPA compliance - lists : disabled
+[2024-07-29 16:29:31,776] DEBUG [org.hibernate.cfg.Settings: 114] JPA compliance - transactions : disabled
+[2024-07-29 16:29:31,851] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:29:31,855] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:29:31,884] DEBUG [org.hibernate.internal.SessionFactoryImpl: 276] Session factory constructed with filter configurations : {}
+[2024-07-29 16:29:31,885] DEBUG [org.hibernate.internal.SessionFactoryImpl: 277] Instantiating session factory with properties: {hibernate.format_sql=true, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialect, java.class.path=C:\Users\BEKZHAN\IdeaProjects\hibernate-starter\build\classes\java\main;C:\Users\BEKZHAN\IdeaProjects\hibernate-starter\build\resources\main;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.6.8.Final\bb775500aff700151b9daa3b4d9de781245d39e6\hibernate-core-5.6.8.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.vladmihalcea\hibernate-types-52\2.12.1\259a605962e65f8683aa34d2df2efd0c08b5a5cb\hibernate-types-52-2.12.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.32\1e225e45fd0c339284c7dcd87cc7a92665d6d559\slf4j-log4j12-1.7.32.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.postgresql\postgresql\42.2.23\9cb217a3d5b640567ed7c6e8c11f389613c81c4d\postgresql-42.2.23.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.2.Final\e59ffdbc6ad09eeb33507b39ffcf287679a498c8\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.4.3.Final\c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea\jboss-logging-3.4.3.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.12.9\424ded9ef3496b0d997ce066f2166a4f7ec7b07a\byte-buddy-1.12.9.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.4.2.Final\1e1c385990b258ff1a24c801e84aebbacf70eb39\jandex-2.4.2.Final.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.5.1\3fe0bed568c62df5e89f4f174c101eab25345b6c\classmate-1.5.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-jaxb-annotations\2.11.0\259bdeb30c9ec336897ca694346486283241214f\jackson-module-jaxb-annotations-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.32\cdcff33940d9f2de763bc41ea05a0be5941176c3\slf4j-api-1.7.32.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.5.0\2f50520c8abea66fbd8d26e481d3aef5c673b510\checker-qual-3.5.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.11.0\8f5aaf3878b0647ff3a16610af53b1a5c05d9f15\jackson-databind-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.11.0\c626020ae55d19c690d25cb51c1532ba76e5890f\jackson-annotations-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.11.0\f84302e14648f9f63c0c73951054aeb2ff0b810a\jackson-core-2.11.0.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\2.3.2\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\jakarta.xml.bind-api-2.3.2.jar;C:\Users\BEKZHAN\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\1.2.1\562a587face36ec7eff2db7f2fc95425c6602bc1\jakarta.activation-api-1.2.1.jar, java.vm.vendor=JetBrains s.r.o., sun.arch.data.model=64, user.variant=, java.vendor.url=https://openjdk.java.net/, user.timezone=Asia/Almaty, java.vm.specification.version=17, os.name=Windows 10, user.country=RU, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr\bin, sun.java.command=com.beko.HibernateRunner, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\BEKZHAN, user.language=ru, java.specification.vendor=Oracle Corporation, java.version.date=2023-01-17, java.home=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, jbr.virtualization.information=Hyper-V role, user.script=, connection.password=beko, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.6+7-b469.82, user.name=BEKZHAN, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5433/hibernate_starter_db, file.encoding=windows-1251, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=JBR-17.0.6+7-469.82-jcef, show_sql=true, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\BEKZHAN\AppData\Local\Temp\, java.version=17.0.6, user.dir=C:\Users\BEKZHAN\IdeaProjects\hibernate-starter, os.arch=amd64, connection.username=beko, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=org.postgresql.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@6069dd38, native.encoding=Cp1251, java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.1\plugins\maven\lib\maven3\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\BEKZHAN\AppData\Local\Microsoft\WindowsApps;;., java.vendor=JetBrains s.r.o., java.vm.info=mixed mode, java.vm.version=17.0.6+7-b469.82, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:postgresql://localhost:5433/hibernate_starter_db, java.class.version=61.0}
+[2024-07-29 16:29:31,905] DEBUG [org.hibernate.secure.spi.JaccIntegrator: 84] Skipping JACC integration as it was not enabled
+[2024-07-29 16:29:31,916] DEBUG [org.hibernate.type.EnumType: 126] Using NAMED-based conversion for Enum com.beko.entity.Role
+[2024-07-29 16:29:31,918] DEBUG [org.hibernate.internal.SessionFactoryImpl: 316] Instantiated session factory
+[2024-07-29 16:29:31,918] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 154] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@77cb9cd1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2924f1d8]
+[2024-07-29 16:29:32,003] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 60] Not known whether passed class name [com.beko.entity.User] is safe
+[2024-07-29 16:29:32,003] DEBUG [org.hibernate.boot.internal.ClassLoaderAccessImpl: 62] No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.beko.entity.User
+[2024-07-29 16:29:32,302] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4002] Static SQL for entity: com.beko.entity.User
+[2024-07-29 16:29:32,304] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4007]  Version select: select username from public.users where username =?
+[2024-07-29 16:29:32,304] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 4010]  Snapshot select: select user_.username, user_.info as info2_0_, user_.birth_date as birth_da3_0_, user_.firstname as firstnam4_0_, user_.lastname as lastname5_0_, user_.role as role6_0_ from public.users user_ where user_.username=?
+[2024-07-29 16:29:32,304] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Insert 0: insert into public.users (info, birth_date, firstname, lastname, role, username) values (?, ?, ?, ?, ?, ?)
+[2024-07-29 16:29:32,305] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Update 0: update public.users set info=?, birth_date=?, firstname=?, lastname=?, role=? where username=?
+[2024-07-29 16:29:32,306] DEBUG [org.hibernate.persister.entity.AbstractEntityPersister: 394]  Delete 0: delete from public.users where username=?
+[2024-07-29 16:29:32,350] DEBUG [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl: 174] Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@adcfad9]
+[2024-07-29 16:29:32,352] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : info
+[2024-07-29 16:29:32,352] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo
+[2024-07-29 16:29:32,355] DEBUG [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl: 174] Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@35c4e864]
+[2024-07-29 16:29:32,360] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.birthDate
+[2024-07-29 16:29:32,360] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.firstname
+[2024-07-29 16:29:32,361] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : personalInfo.lastname
+[2024-07-29 16:29:32,361] DEBUG [org.hibernate.persister.walking.spi.MetamodelGraphWalker: 146] Visiting attribute path : role
+[2024-07-29 16:29:32,362] DEBUG [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy: 160] Building LoadPlan...
+[2024-07-29 16:29:32,379] DEBUG [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor: 102] processing queryspace <gen:0>
+[2024-07-29 16:29:32,384] DEBUG [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter: 55] LoadPlan(entity=com.beko.entity.User)
+    - Returns
+       - EntityReturnImpl(entity=com.beko.entity.User, querySpaceUid=<gen:0>, path=com.beko.entity.User)
+          - CompositeAttributeFetchImpl(composite=com.beko.entity.PersonalInfo, querySpaceUid=<gen:1>, path=com.beko.entity.User.personalInfo)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.beko.entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {username1_0_0_}
+          - JOIN (JoinDefinedByMetadata(personalInfo)) : <gen:0> -> <gen:1>
+             - CompositeQuerySpaceImpl(uid=<gen:1>)
+                - SQL table alias mapping - user0_
+
+[2024-07-29 16:29:32,387] DEBUG [org.hibernate.loader.entity.plan.EntityLoader: 129] Static select for entity com.beko.entity.User [NONE]: select user0_.username as username1_0_0_, user0_.info as info2_0_0_, user0_.birth_date as birth_da3_0_0_, user0_.firstname as firstnam4_0_0_, user0_.lastname as lastname5_0_0_, user0_.role as role6_0_0_ from public.users user0_ where user0_.username=?
+[2024-07-29 16:29:32,434] DEBUG [org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator: 556] No schema actions specified
+[2024-07-29 16:29:32,434] DEBUG [org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator: 69] No actions specified; doing nothing
+[2024-07-29 16:29:32,435] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 43] No JtaPlatform was specified, checking resolver
+[2024-07-29 16:29:32,436] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator: 33] No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[2024-07-29 16:29:32,450] DEBUG [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver: 137] Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:29:32,450] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:29:32,452] DEBUG [org.hibernate.query.spi.NamedQueryRepository: 171] Checking 0 named HQL queries
+[2024-07-29 16:29:32,452] DEBUG [org.hibernate.query.spi.NamedQueryRepository: 185] Checking 0 named SQL queries
+[2024-07-29 16:29:32,457] DEBUG [org.hibernate.service.internal.SessionFactoryServiceRegistryImpl: 92] EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+[2024-07-29 16:29:32,465] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 51] Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@47c7a9e5
+[2024-07-29 16:29:32,468] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 73] Registering SessionFactory: 7158e4e2-9016-4280-8e63-141cae3ea2d1 (<unnamed>)
+[2024-07-29 16:29:32,468] DEBUG [org.hibernate.internal.SessionFactoryRegistry: 80] Not binding SessionFactory to JNDI, no JNDI name configured
+[2024-07-29 16:29:32,567] DEBUG [org.hibernate.stat.internal.StatisticsInitiator: 101] Statistics initialized [enabled=false]
+[2024-07-29 16:29:32,577] DEBUG [org.hibernate.engine.transaction.internal.TransactionImpl: 53] On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2024-07-29 16:29:32,619] DEBUG [org.hibernate.event.internal.AbstractSaveEventListener: 128] Generated identifier: TestMail@mail.ru, using strategy: org.hibernate.id.Assigned
+[2024-07-29 16:29:32,640] WARN [com.beko.HibernateRunner: 33] User is in detached state: user User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null), session is closed SessionImpl(1276761134<closed>)
+[2024-07-29 16:29:32,640] DEBUG [org.hibernate.internal.SessionFactoryImpl: 821] HHH000031: Closing
+[2024-07-29 16:29:32,641] DEBUG [org.hibernate.type.spi.TypeConfiguration$Scope: 345] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@373e6b9d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@2924f1d8]
+[2024-07-29 16:29:32,642] DEBUG [org.hibernate.service.internal.AbstractServiceRegistryImpl: 419] Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2024-07-29 16:29:32,642] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:29:32,644] DEBUG [org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl: 295] Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2024-07-29 16:30:58,718] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:30:58,857] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:30:59,202] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:30:59,953] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:31:00,235] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:31:00,246] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:31:00,246] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 16:31:00,247] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:31:00,253] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:31:00,634] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:31:01,663] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:31:01,781] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:31:01,783] ERROR [com.beko.HibernateRunner: 37] Exception occurred
+java.lang.IllegalStateException: Transaction not successfully started
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:95)
+	at com.beko.HibernateRunner.main(HibernateRunner.java:33)
+[2024-07-29 16:32:24,606] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:32:24,736] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:32:25,060] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:32:25,770] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:32:26,043] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:32:26,052] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:32:26,053] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 16:32:26,053] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:32:26,058] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:32:26,422] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:32:27,359] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:32:27,477] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:32:27,479] ERROR [com.beko.HibernateRunner: 37] Exception occurred
+java.lang.IllegalStateException: Transaction not successfully started
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:95)
+	at com.beko.HibernateRunner.main(HibernateRunner.java:34)
+[2024-07-29 16:33:25,207] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:33:25,348] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:33:25,681] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:33:26,393] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:33:26,659] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:33:26,669] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:33:26,670] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 16:33:26,670] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:33:26,675] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:33:27,031] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:33:27,996] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:33:28,203] WARN [com.beko.HibernateRunner: 35] User is in detached state: user User(username=TestMail@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null), session is closed SessionImpl(1762984107<closed>)
+[2024-07-29 16:33:28,204] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:42:12,124] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail1@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:42:12,257] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:42:12,573] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:42:13,295] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:42:13,564] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:42:13,573] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:42:13,574] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 16:42:13,574] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:42:13,579] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:42:13,924] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:42:14,879] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:42:15,076] WARN [com.beko.HibernateRunner: 35] User is in detached state: user User(username=TestMail1@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null), session is closed SessionImpl(44227594<closed>)
+[2024-07-29 16:42:15,078] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:42:36,220] INFO [com.beko.HibernateRunner: 22] User entity is in transient state, object User(username=TestMail1@mail.ru, personalInfo=PersonalInfo(firstname=Beko, lastname=Toktamyssov, birthDate=null), info=null, role=null)
+[2024-07-29 16:42:36,366] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-07-29 16:42:36,725] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-07-29 16:42:37,453] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-07-29 16:42:37,735] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-07-29 16:42:37,745] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:42:37,746] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=beko}
+[2024-07-29 16:42:37,747] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-07-29 16:42:37,752] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-07-29 16:42:38,140] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-07-29 16:42:39,106] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-07-29 16:42:39,269] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23505
+[2024-07-29 16:42:39,270] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ERROR: duplicate key value violates unique constraint "users_pkey"
+  Подробности: Key (username)=(TestMail1@mail.ru) already exists.
+[2024-07-29 16:42:39,273] INFO [org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl: 213] HHH000010: On release of batch it still contained JDBC statements
+[2024-07-29 16:42:39,286] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5433/hibernate_starter_db]
+[2024-07-29 16:42:39,289] ERROR [com.beko.HibernateRunner: 37] Exception occurred
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1411)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3290)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2425)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at com.beko.HibernateRunner.main(HibernateRunner.java:33)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:109)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3375)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3908)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	... 9 more
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "users_pkey"
+  Подробности: Key (username)=(TestMail1@mail.ru) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2552)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2284)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 21 more
