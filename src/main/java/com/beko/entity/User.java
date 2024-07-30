@@ -1,6 +1,5 @@
 package com.beko.entity;
 
-import com.beko.converter.BirthdayConvertor;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,17 +19,13 @@ import javax.persistence.*;
 @Table(name = "users", schema = "public")
 public class User {
 
-    @Id
-    @GeneratedValue(generator = "user_gen", strategy = GenerationType.SEQUENCE)
-    @SequenceGenerator(name = "user_gen", sequenceName = "user_id_seq", allocationSize = 1)
-    private Long id;
+    @EmbeddedId
+    @AttributeOverride(name = "birthDate", column = @Column(name = "birth_date"))
+    private PersonalInfo personalInfo;
 
     @Column(unique = true)
     private String username;
 
-    @Embedded
-    @AttributeOverride(name = "birthDate", column = @Column(name = "birth_date"))
-    private PersonalInfo personalInfo;
 
     @Type(type = "Bekooo")
     private String info;
