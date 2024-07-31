@@ -1,10 +1,7 @@
 package com.beko.entity;
 
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
@@ -13,6 +10,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString(exclude = "profile")
 @Builder
 @Entity
 @TypeDef(name = "Bekooo", typeClass = JsonBinaryType.class)
@@ -29,15 +27,17 @@ public class User {
     @Column(unique = true)
     private String username;
 
-
     @Type(type = "Bekooo")
     private String info;
 
     @Enumerated(value = EnumType.STRING)
     private Role role;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "company_id")
     private Company company;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Profile profile;
 }
 

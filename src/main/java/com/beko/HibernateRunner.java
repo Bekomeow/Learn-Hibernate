@@ -13,18 +13,14 @@ import java.time.LocalDate;
 public class HibernateRunner {
 //    private static final Logger log = LoggerFactory.getLogger(HibernateRunner.class); -> @Slf4j
     public static void main(String[] args) {
-        var company = Company.builder()
-                .name("Google")
-                .build();
 
         User user = User.builder()
-                .username("TestMail3mail.ru")
+                .username("TestMail1mail.ru")
                 .personalInfo(PersonalInfo.builder()
                         .firstname("Beko")
                         .lastname("Toktamyssov")
                         .birthDate(new Birthday(LocalDate.of(2005, 6, 14)))
                         .build())
-                .company(company)
                 .build();
 
         log.info("User entity is in transient state, object {}", user);
@@ -33,7 +29,8 @@ public class HibernateRunner {
             try (var session1 = sessionFactory.openSession()) {
                 var transaction = session1.beginTransaction();
 
-                session1.saveOrUpdate(company);
+                user.setCompany(session1.get(Company.class, 1));
+
                 session1.saveOrUpdate(user);
 
                 session1.getTransaction().commit();

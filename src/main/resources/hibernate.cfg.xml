@@ -16,6 +16,7 @@
 <!--    Можно также добавить с помощью java метода-->
     <mapping class="com.beko.entity.User"/>
     <mapping class="com.beko.entity.Company"/>
+    <mapping class="com.beko.entity.Profile"/>
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
