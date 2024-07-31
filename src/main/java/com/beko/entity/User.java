@@ -6,11 +6,13 @@ import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString(exclude = "profile")
+@ToString(exclude = {"company", "profile", "chats"})
 @Builder
 @Entity
 @TypeDef(name = "Bekooo", typeClass = JsonBinaryType.class)
@@ -39,5 +41,21 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Profile profile;
+
+    @Builder.Default
+    @ManyToMany
+    @JoinTable(
+            name = "users_chat",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "chat_id")
+    )
+    private Set<Chat> chats = new HashSet<>();
+
+    public void addChat(Chat chat) {
+        chats.add(chat);
+        chat.getUsers().add(this);
+    }
 }
+
+
 
