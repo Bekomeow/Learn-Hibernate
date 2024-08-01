@@ -1644,3 +1644,118 @@ https://vladmihalcea.com/hypersistence-optimizer/
 [2024-07-31 14:58:51,075] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
 [2024-07-31 14:58:51,442] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
 [2024-07-31 14:58:52,729] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-08-01 14:14:32,173] INFO [org.testcontainers.images.PullPolicy: 59] Image pull policy will be performed by: DefaultPullPolicy()
+[2024-08-01 14:14:32,179] INFO [org.testcontainers.utility.ImageNameSubstitutor: 60] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[2024-08-01 14:14:32,382] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 383] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[2024-08-01 14:14:32,632] INFO [org.testcontainers.dockerclient.DockerClientProviderStrategy: 293] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[2024-08-01 14:14:32,634] INFO [org.testcontainers.DockerClientFactory: 206] Docker host IP address is localhost
+[2024-08-01 14:14:32,652] INFO [org.testcontainers.DockerClientFactory: 213] Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 6862 MB
+[2024-08-01 14:14:32,688] INFO [tc.testcontainers/ryuk:0.6.0: 75] Pulling docker image: testcontainers/ryuk:0.6.0. Please be patient; this may take some time but only needs to be done once.
+[2024-08-01 14:14:32,946] INFO [org.testcontainers.utility.RegistryAuthLocator: 292] Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+[2024-08-01 14:14:36,396] INFO [tc.testcontainers/ryuk:0.6.0: 47] Starting to pull image
+[2024-08-01 14:14:36,414] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+[2024-08-01 14:14:38,059] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (499 KB/? MB)
+[2024-08-01 14:14:39,372] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (5 MB/? MB)
+[2024-08-01 14:14:39,475] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (6 MB/6 MB)
+[2024-08-01 14:14:39,584] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (6 MB/6 MB)
+[2024-08-01 14:14:39,667] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (6 MB/6 MB)
+[2024-08-01 14:14:39,710] INFO [tc.testcontainers/ryuk:0.6.0: 93] Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (6 MB/6 MB)
+[2024-08-01 14:14:39,725] INFO [tc.testcontainers/ryuk:0.6.0: 100] Image testcontainers/ryuk:0.6.0 pull took PT7.0351521S
+[2024-08-01 14:14:39,725] INFO [tc.testcontainers/ryuk:0.6.0: 116] Pull complete. 3 layers, pulled in 3s (downloaded 6 MB at 2 MB/s)
+[2024-08-01 14:14:39,766] INFO [tc.testcontainers/ryuk:0.6.0: 387] Creating container for image: testcontainers/ryuk:0.6.0
+[2024-08-01 14:14:39,874] INFO [tc.testcontainers/ryuk:0.6.0: 451] Container testcontainers/ryuk:0.6.0 is starting: bc7da73161438f75f12b2937c37582fcd2f51fc473e2ae65c554ba2e7dd13b6d
+[2024-08-01 14:14:40,358] INFO [tc.testcontainers/ryuk:0.6.0: 541] Container testcontainers/ryuk:0.6.0 started in PT0.5922848S
+[2024-08-01 14:14:40,364] INFO [org.testcontainers.utility.RyukResourceReaper: 43] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[2024-08-01 14:14:40,364] INFO [org.testcontainers.DockerClientFactory: 243] Checking the system...
+[2024-08-01 14:14:40,365] INFO [org.testcontainers.DockerClientFactory: 264] ?? Docker server version should be at least 1.6.0
+[2024-08-01 14:14:40,369] INFO [tc.postgres:13: 75] Pulling docker image: postgres:13. Please be patient; this may take some time but only needs to be done once.
+[2024-08-01 14:14:42,816] INFO [tc.postgres:13: 47] Starting to pull image
+[2024-08-01 14:14:42,817] INFO [tc.postgres:13: 93] Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+[2024-08-01 14:14:44,268] INFO [tc.postgres:13: 93] Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (45 KB/? MB)
+[2024-08-01 14:14:46,512] INFO [tc.postgres:13: 93] Pulling image layers: 12 pending,  2 downloaded,  0 extracted, (5 MB/? MB)
+[2024-08-01 14:14:48,515] INFO [tc.postgres:13: 93] Pulling image layers: 11 pending,  3 downloaded,  0 extracted, (10 MB/? MB)
+[2024-08-01 14:14:50,323] INFO [tc.postgres:13: 93] Pulling image layers: 10 pending,  4 downloaded,  0 extracted, (15 MB/? MB)
+[2024-08-01 14:14:50,990] INFO [tc.postgres:13: 93] Pulling image layers:  9 pending,  5 downloaded,  0 extracted, (16 MB/? MB)
+[2024-08-01 14:14:51,671] INFO [tc.postgres:13: 93] Pulling image layers:  8 pending,  6 downloaded,  0 extracted, (18 MB/? MB)
+[2024-08-01 14:14:55,979] INFO [tc.postgres:13: 93] Pulling image layers:  7 pending,  7 downloaded,  0 extracted, (26 MB/? MB)
+[2024-08-01 14:14:57,303] INFO [tc.postgres:13: 93] Pulling image layers:  6 pending,  8 downloaded,  0 extracted, (29 MB/? MB)
+[2024-08-01 14:14:57,985] INFO [tc.postgres:13: 93] Pulling image layers:  5 pending,  9 downloaded,  0 extracted, (30 MB/? MB)
+[2024-08-01 14:14:58,650] INFO [tc.postgres:13: 93] Pulling image layers:  4 pending, 10 downloaded,  0 extracted, (32 MB/? MB)
+[2024-08-01 14:14:59,322] INFO [tc.postgres:13: 93] Pulling image layers:  3 pending, 11 downloaded,  0 extracted, (32 MB/? MB)
+[2024-08-01 14:15:09,998] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  0 extracted, (60 MB/? MB)
+[2024-08-01 14:15:11,118] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  1 extracted, (62 MB/? MB)
+[2024-08-01 14:15:11,137] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  2 extracted, (62 MB/? MB)
+[2024-08-01 14:15:11,246] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  3 extracted, (63 MB/? MB)
+[2024-08-01 14:15:11,285] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  4 extracted, (63 MB/? MB)
+[2024-08-01 14:15:11,551] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  5 extracted, (63 MB/? MB)
+[2024-08-01 14:15:11,608] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  6 extracted, (64 MB/? MB)
+[2024-08-01 14:15:11,625] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  7 extracted, (64 MB/? MB)
+[2024-08-01 14:15:11,641] INFO [tc.postgres:13: 93] Pulling image layers:  2 pending, 12 downloaded,  8 extracted, (64 MB/? MB)
+[2024-08-01 14:15:47,324] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded,  8 extracted, (141 MB/? MB)
+[2024-08-01 14:15:49,387] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded,  9 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,409] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded, 10 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,425] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded, 11 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,440] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded, 12 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,456] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded, 13 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,472] INFO [tc.postgres:13: 93] Pulling image layers:  1 pending, 13 downloaded, 14 extracted, (142 MB/? MB)
+[2024-08-01 14:15:49,487] INFO [tc.postgres:13: 100] Image postgres:13 pull took PT1M9.1176126S
+[2024-08-01 14:15:49,487] INFO [tc.postgres:13: 116] Pull complete. 14 layers, pulled in 66s (downloaded 142 MB at 2 MB/s)
+[2024-08-01 14:15:49,494] INFO [tc.postgres:13: 387] Creating container for image: postgres:13
+[2024-08-01 14:15:49,688] INFO [tc.postgres:13: 451] Container postgres:13 is starting: 0df1c141817e0d6724bc7bfff48ed13783170a0c3aa9b0ff473d6ba5be540677
+[2024-08-01 14:15:51,055] INFO [tc.postgres:13: 541] Container postgres:13 started in PT1.560807S
+[2024-08-01 14:15:51,056] INFO [tc.postgres:13: 186] Container is started (JDBC URL: jdbc:postgresql://localhost:54477/test?loggerLevel=OFF)
+[2024-08-01 14:15:51,118] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.8.Final
+[2024-08-01 14:15:51,319] INFO [Hibernate Types: 283] This framework is proudly powered by:
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ _    _                           _     _
+| |  | |                         (_)   | |
+| |__| |_   _ _ __   ___ _ __ ___ _ ___| |_ ___ _ __   ___ ___
+|  __  | | | | '_ \ / _ \ '__/ __| / __| __/ _ \ '_ \ / __/ _ \
+| |  | | |_| | |_) |  __/ |  \__ \ \__ \ ||  __/ | | | (_|  __/
+|_|  |_|\__, | .__/ \___|_|  |___/_|___/\__\___|_| |_|\___\___|
+         __/ | |
+        |___/|_|
+
+At Hypersistence, we only build amazing tools, like Hibernate Types, Flexy Pool, or Hypersistence Optimizer.
+
+What if there were a tool that could automatically detect JPA and Hibernate performance issues?
+
+Hypersistence Optimizer is that tool! For more details, go to: 
+
+https://vladmihalcea.com/hypersistence-optimizer/
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[2024-08-01 14:15:51,732] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-08-01 14:15:51,828] WARN [org.hibernate.orm.connections.pooling: 72] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2024-08-01 14:15:51,834] INFO [org.hibernate.orm.connections.pooling: 115] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:54477/test?loggerLevel=OFF]
+[2024-08-01 14:15:51,834] INFO [org.hibernate.orm.connections.pooling: 124] HHH10001001: Connection properties: {password=****, user=test}
+[2024-08-01 14:15:51,835] INFO [org.hibernate.orm.connections.pooling: 129] HHH10001003: Autocommit mode: false
+[2024-08-01 14:15:51,837] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 274] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2024-08-01 14:15:51,919] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2024-08-01 14:15:52,609] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3a5ce4b8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2024-08-01 14:15:52,613] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,613] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users" does not exist, skipping
+[2024-08-01 14:15:52,614] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,615] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users" does not exist, skipping
+[2024-08-01 14:15:52,616] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,616] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "profile" does not exist, skipping
+[2024-08-01 14:15:52,617] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,618] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2024-08-01 14:15:52,619] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,619] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] relation "users_chat" does not exist, skipping
+[2024-08-01 14:15:52,621] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,622] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "chat" does not exist, skipping
+[2024-08-01 14:15:52,623] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,623] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "company" does not exist, skipping
+[2024-08-01 14:15:52,624] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,625] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "profile" does not exist, skipping
+[2024-08-01 14:15:52,626] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 230] SQL Warning Code: 0, SQLState: 00000
+[2024-08-01 14:15:52,627] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 231] table "users_chat" does not exist, skipping
+[2024-08-01 14:15:52,631] INFO [org.hibernate.orm.connections.access: 48] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3f1d6a13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[2024-08-01 14:15:52,668] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-08-01 14:15:52,771] INFO [org.hibernate.orm.connections.pooling: 502] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:54477/test?loggerLevel=OFF]
