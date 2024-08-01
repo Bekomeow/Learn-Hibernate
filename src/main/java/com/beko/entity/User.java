@@ -16,8 +16,7 @@ import java.util.List;
 @ToString(exclude = {"company", "profile", "userChats"})
 @Entity
 @TypeDef(name = "Bekooo", typeClass = JsonBinaryType.class)
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn
+@Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "users")
 public abstract class User implements BaseEntity<Long> {
 
