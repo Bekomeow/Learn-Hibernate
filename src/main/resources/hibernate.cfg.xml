@@ -19,6 +19,8 @@
     <mapping class="com.beko.entity.Profile"/>
     <mapping class="com.beko.entity.Chat"/>
     <mapping class="com.beko.entity.UserChat"/>
+    <mapping class="com.beko.entity.Programmer"/>
+    <mapping class="com.beko.entity.Manager"/>
 
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->

@@ -12,15 +12,15 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@EqualsAndHashCode(of = "username")
 @ToString(exclude = {"company", "profile", "userChats"})
-@Builder
 @Entity
 @TypeDef(name = "Bekooo", typeClass = JsonBinaryType.class)
-@Table(name = "users", schema = "public")
-public class User {
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+public abstract class User implements BaseEntity<Long> {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
     @AttributeOverride(name = "birthDate", column = @Column(name = "birth_date"))
@@ -42,7 +42,6 @@ public class User {
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Profile profile;
 
-    @Builder.Default
     @OneToMany(mappedBy = "user")
     private List<UserChat> userChats = new ArrayList<>();
 }
