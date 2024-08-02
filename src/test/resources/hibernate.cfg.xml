@@ -18,8 +18,7 @@
     <mapping class="com.beko.entity.Profile"/>
     <mapping class="com.beko.entity.Chat"/>
     <mapping class="com.beko.entity.UserChat"/>
-    <mapping class="com.beko.entity.Programmer"/>
-    <mapping class="com.beko.entity.Manager"/>
+    <mapping class="com.beko.entity.Payment"/>
 
   </session-factory>
 </hibernate-configuration>
