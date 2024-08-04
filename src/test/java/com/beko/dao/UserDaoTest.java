@@ -1,5 +1,6 @@
 package com.beko.dao;
 
+import com.beko.dto.PaymentFilter;
 import com.beko.entity.Payment;
 import com.beko.entity.User;
 import com.beko.util.HibernateTestUtil;
@@ -110,7 +111,12 @@ class UserDaoTest {
         @Cleanup Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        Double averagePaymentAmount = userDao.findAveragePaymentAmountByFirstAndLastNames(session, "Bill", "Gates");
+        var filter = PaymentFilter.builder()
+                .firstname("Bill")
+                .lastname("Gates")
+                .build();
+
+        Double averagePaymentAmount = userDao.findAveragePaymentAmountByFirstAndLastNames(session, filter);
         assertThat(averagePaymentAmount).isEqualTo(300.0);
 
         session.getTransaction().commit();
