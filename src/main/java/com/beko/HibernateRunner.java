@@ -12,12 +12,10 @@ public class HibernateRunner {
         try (var sessionFactory = HibernateUtil.buildSessionFactory()) {
             try (var session1 = sessionFactory.openSession()) {
                 session1.beginTransaction();
+                session1.enableFetchProfile("withCompanyAndPayment");
 
-                var users = session1.createQuery("select u from User u", User.class)
-                        .list();
-
-                users.forEach(user -> System.out.println(user.getPayments().size()));
-                users.forEach(user -> System.out.println(user.getCompany().getName()));
+                var user = session1.get(User.class, 1L);
+                System.out.println(user.getCompany().getName());
 
                 session1.getTransaction().commit();
             }

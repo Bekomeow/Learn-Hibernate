@@ -7,9 +7,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.hibernate.annotations.BatchSize;
-import org.hibernate.annotations.Type;
-import org.hibernate.annotations.TypeDef;
+import org.hibernate.annotations.*;
 
 import javax.persistence.AttributeOverride;
 import javax.persistence.CascadeType;
@@ -30,6 +28,14 @@ import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
+@FetchProfile(name = "withCompanyAndPayment", fetchOverrides = {
+        @FetchProfile.FetchOverride(
+                entity = User.class, association = "company", mode = FetchMode.JOIN
+        ),
+        @FetchProfile.FetchOverride(
+                entity = User.class, association = "payments", mode = FetchMode.JOIN
+        )
+})
 @NamedQuery(name = "findUserByName", query = "select u from User u " +
         "left join u.company c " +
         "where u.personalInfo.firstname = :firstname and c.name = :companyName " +
@@ -76,7 +82,8 @@ public class User implements Comparable<User>, BaseEntity<Long> {
     @OneToMany(mappedBy = "user")
     private List<UserChat> userChats = new ArrayList<>();
 
-    @BatchSize(size = 3)
+//    @BatchSize(size = 3)
+    @Fetch(FetchMode.SUBSELECT)
     @Builder.Default
     @OneToMany(mappedBy = "receiver")
     private List<Payment> payments = new ArrayList<>();
