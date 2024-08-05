@@ -4,7 +4,7 @@ import com.beko.dto.PaymentFilter;
 import com.beko.entity.Payment;
 import com.beko.entity.User;
 import com.beko.util.HibernateTestUtil;
-import com.beko.util.TestDataImporter;
+import com.beko.util.DataImporter;
 import com.querydsl.core.Tuple;
 import lombok.Cleanup;
 import org.hibernate.Session;
@@ -28,7 +28,7 @@ class UserDaoTest {
 
     @BeforeAll
     public void initDb() {
-        TestDataImporter.importData(sessionFactory);
+        DataImporter.importData(sessionFactory);
     }
 
     @AfterAll
