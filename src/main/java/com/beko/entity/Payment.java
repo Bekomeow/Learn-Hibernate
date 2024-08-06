@@ -31,3 +31,4 @@ public class Payment extends AuditableEntity<Long> {
     private User receiver;
 }
 
+
