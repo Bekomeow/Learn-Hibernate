@@ -15,7 +15,7 @@ import javax.persistence.*;
 @Builder
 @Entity
 @OptimisticLocking(type = OptimisticLockType.VERSION)
-public class Payment implements BaseEntity<Long> {
+public class Payment extends AuditableEntity<Long> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
