@@ -1,6 +1,6 @@
 package com.beko.entity;
 
-import com.beko.listner.AuditListener;
+import com.beko.listner.AuditDatesListener;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,7 +12,7 @@ import java.time.Instant;
 @Getter
 @Setter
 @MappedSuperclass
-@EntityListeners(AuditListener.class)
+@EntityListeners(AuditDatesListener.class)
 public abstract class AuditableEntity<T extends Serializable> implements BaseEntity<T> {
     private Instant createdAt;
     private String createdBy;
