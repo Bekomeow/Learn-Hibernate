@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.SortNatural;
+import org.hibernate.envers.Audited;
+import org.hibernate.envers.NotAudited;
 
 import javax.persistence.CascadeType;
 import javax.persistence.CollectionTable;
@@ -33,6 +35,7 @@ import java.util.TreeMap;
 @Builder
 @Entity
 @BatchSize(size = 3)
+@Audited
 public class Company {
 
     @Id
@@ -46,6 +49,7 @@ public class Company {
     @OneToMany(mappedBy = "company", cascade = CascadeType.ALL, orphanRemoval = true)
     @MapKey(name = "username")
     @SortNatural
+    @NotAudited
     private Map<String, User> users = new TreeMap<>();
 
     @Builder.Default
@@ -55,6 +59,7 @@ public class Company {
 //    private List<LocaleInfo> locales = new ArrayList<>();
     @MapKeyColumn(name = "lang")
     @Column(name = "description")
+    @NotAudited
     private Map<String, String> locales = new HashMap<>();
 
     public void addUser(User user) {

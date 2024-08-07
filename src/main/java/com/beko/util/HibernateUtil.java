@@ -2,6 +2,7 @@ package com.beko.util;
 
 import com.beko.converter.BirthdayConvertor;
 import com.beko.entity.Audit;
+import com.beko.entity.Revision;
 import com.beko.entity.User;
 import com.beko.listner.AuditTableListener;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
@@ -20,7 +21,7 @@ public class HibernateUtil {
         configuration.configure();
 
         var sessionFactory = configuration.buildSessionFactory();
-        registerListeners(sessionFactory);
+//        registerListeners(sessionFactory);
 
         return sessionFactory;
     }
@@ -38,6 +39,7 @@ public class HibernateUtil {
         var configuration = new Configuration();
         configuration.addAnnotatedClass(User.class);
         configuration.addAnnotatedClass(Audit.class);
+        configuration.addAnnotatedClass(Revision.class);
         configuration.setPhysicalNamingStrategy(new CamelCaseToUnderscoresNamingStrategy());
         configuration.addAttributeConverter(BirthdayConvertor.class, true);
         configuration.registerTypeOverride(new JsonBinaryType());
